@@ -3,7 +3,7 @@
 ## Overview
 This project is part of a data analysis case study from the Google Business Intelligence Professional Certificate with the goal to understand customer demand patterns for **Cyclistic**, a fictional bike-sharing company.
 
-## Tools and Technologies
+## Tools
 - **Tableau**: For creating customer insights dashboards and visualizing demand patterns.
 - **Google BigQuery**: For managing large datasets and performing SQL queries.
 - **SQL**: Used for data cleaning, transformation, and running complex queries.
