@@ -1,7 +1,7 @@
 # Cyclistic Customer Demand Analysis
 
 ## Overview
-This project is part of a data analysis case study aimed at understanding customer demand patterns for **Cyclistic**, a bike-sharing company. The goal is to provide actionable insights using data visualization and ETL processes to optimize resource allocation and inform marketing strategies.
+This project is part of a data analysis case study from the Google Business Intelligence Professional Certificate with the goal to understand customer demand patterns for **Cyclistic**, a fictional bike-sharing company.
 
 ## Tools and Technologies
 - **Tableau**: For creating customer insights dashboards and visualizing demand patterns.
@@ -15,7 +15,7 @@ This project is part of a data analysis case study aimed at understanding custom
 - Create data-driven visualizations to support stakeholder decision-making.
 
 ## Process
-1. **Data Collection**: Data was sourced from Cyclistic's publicly available datasets, which contained ride details, customer types, and timestamps.
+1. **Data Collection**: Data was sourced from Cyclistic's datasets, which contained ride details, customer types, and timestamps.
 2. **Data Cleaning**: Used SQL and ETL processes in Google BigQuery to clean and preprocess the data, ensuring it was ready for analysis.
 3. **Data Analysis**: Created insights on customer behavior, focusing on high-demand stations, ride durations, and peak usage times.
 4. **Visualization**: Developed 4 dashboards using Tableau, highlighting key insights, including demand hotspots and seasonal trends.
@@ -28,4 +28,4 @@ This project is part of a data analysis case study aimed at understanding custom
 - **Marketing Strategy**: Analysis informed targeted marketing campaigns during high-demand periods, increasing campaign efficiency.
 
 ## Conclusion
-This project demonstrates the application of data analysis and visualization techniques to solve real-world business problems. By utilizing tools like Tableau, SQL, and BigQuery, the project provided actionable insights that could improve operational and marketing decisions for Cyclistic.
+This project applies data analysis and visualization techniques to provide actionable insights and solve business problems by utilizing tools like Tableau, SQL, and BigQuery.
