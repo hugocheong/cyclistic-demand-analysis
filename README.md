@@ -1,7 +1,7 @@
 # Cyclistic Customer Demand Analysis
 
 ## Overview
-This project is part of a data analysis case study from the Google Business Intelligence Professional Certificate with the goal to understand customer demand patterns for **Cyclistic**, a fictional bike-sharing company.
+This project is part of a data analysis case study from the Google Business Intelligence Professional Certificate to understand customer demand patterns for **Cyclistic**, a fictional bike-sharing company.
 
 ## Tools
 - **Tableau**: For creating customer insights dashboards and visualizing demand patterns.
