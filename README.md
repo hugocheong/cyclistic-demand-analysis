@@ -24,7 +24,7 @@ This project is part of a data analysis case study from the Google Business Inte
    - Informed marketing strategies based on peak season usage patterns.
 
 ## Dashboard
-The dashboards are built with [Tableau Public](https://public.tableau.com/views/CyclisticCaseStudy_17188499515650/SummerTrends?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+The dashboards are built with [Tableau Public](https://public.tableau.com/views/CyclisticCaseStudy_17188499515650/CyclisticExemplar?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 ## Key Insights
 - **Station Optimization**: Insights led to a more effective resource allocation plan for bike station placements.
