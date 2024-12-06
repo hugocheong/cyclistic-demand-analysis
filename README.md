@@ -29,16 +29,15 @@ This project is part of the Google Business Intelligence Professional Certificat
    - Applied ETL processes in Google BigQuery to clean and preprocess raw data.
 
 ### 3. **Data Analysis**
-   - Identified **top 10 high-demand stations** requiring resource optimization.
+   - Identified high-demand stations requiring resource optimization.
    - Mapped peak usage trends during weekends and holidays.
    - Analyzed ride duration patterns across different customer types (e.g., casual vs. subscribers).
 
 ### 4. **Dashboard Development**
-   - Created 4 dashboards in Tableau:
+   - Created 3 dashboards in Tableau:
      - **Demand Hotspots Dashboard**: Visualized top stations by usage.
      - **Customer Behavior Dashboard**: Highlighted differences between casual and subscriber users.
-     - **Seasonal Trends Dashboard**: Focused on peak months and times.
-     - **Marketing Impact Dashboard**: Showed targeted campaign performance metrics.
+     - **Seasonal Trends Dashboard**: Focused on peak months and times during Summer.
 
 ---
 
