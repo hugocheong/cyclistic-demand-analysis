@@ -1,14 +1,14 @@
 # Cyclistic Customer Demand Analysis
 
 ## Overview
-This project is part of the Google Business Intelligence Professional Certificate and focuses on analyzing customer demand patterns for **Cyclistic**, a fictional bike-sharing company. The goal is to provide actionable insights to optimize station placements and enhance marketing strategies using advanced data analytics.
+This project is part of the Google Business Intelligence Professional Certificate and focuses on analyzing customer demand patterns for **Cyclistic**, a fictional bike-sharing company. The goal is to provide actionable insights to optimize station placements and enhance marketing strategies. The analysis uses NYC Citi Bike trip data with Census Bureau boundaries for neighborhood and zip code lookups.
 
 ---
 
 ## Tools and Techniques
-- **Tableau**: Developed 4 dashboards to visualize customer demand patterns, high-demand stations, and seasonal trends.
+- **Tableau**: Developed 3 dashboards to visualize customer demand patterns, high-demand stations, and seasonal trends.
 - **Google BigQuery**: Managed large datasets with SQL queries for data cleaning, transformation, and analysis.
-- **SQL**: Wrote and optimized complex queries for insights generation.
+- **SQL**: Wrote queries to join trip, weather and location data and aggregate it for the dashboards.
 - **ETL Process**: Extracted, transformed, and loaded large datasets to prepare for analysis.
 
 ---
@@ -29,15 +29,24 @@ This project is part of the Google Business Intelligence Professional Certificat
    - Applied ETL processes in Google BigQuery to clean and preprocess raw data.
 
 ### 3. **Data Analysis**
-   - Identified high-demand stations requiring resource optimization.
-   - Mapped peak usage trends during weekends and holidays.
-   - Analyzed ride duration patterns across different customer types (e.g., casual vs. subscribers).
+   - Identified high-demand starting and destination areas by trip count and total trip minutes.
+   - Mapped monthly trip totals to show seasonal peaks and troughs.
+   - Analyzed ride duration patterns across different customer types (casual customers vs. subscribers).
 
 ### 4. **Dashboard Development**
    - Created 3 dashboards in Tableau:
-     - **Demand Hotspots Dashboard**: Visualized top stations by usage.
-     - **Customer Behavior Dashboard**: Highlighted differences between casual and subscriber users.
-     - **Seasonal Trends Dashboard**: Focused on peak months and times during Summer.
+     - **Summer Trends**: Map and table of trips by starting and ending neighborhood, split by customer type, with July, August and September maps.
+     - **Seasonality**: Monthly trip totals by customer type, and trip counts by starting neighborhood and zip code.
+     - **Top Trips**: Total trip minutes by starting station and by destination.
+
+---
+
+## Key Findings
+- About 3.5 million trips (3,499,028) from December 2018 to December 2020.
+- Subscribers took 84% of trips (2,924,501), and casual customers took 16% (574,527).
+- Casual customers ride about twice as long as subscribers: 31 minutes on average, against 15.
+- Trips peak in late summer and drop to a low each winter.
+- Chelsea and Clinton (10011) is the top starting area, and Lower East Side (10002) the top destination, each at about 5.5 million trip minutes.
 
 ---
 
@@ -49,4 +58,4 @@ The interactive dashboards are publicly accessible on Tableau Public:
 
 
 ## Conclusion
-By leveraging data analysis, visualization, and ETL workflows, this project provides scalable solutions to Cyclistic’s business challenges. The insights and dashboards empower stakeholders to make data-driven decisions, improving operational efficiency and customer engagement.
+This project turns millions of trip records into three dashboards that show where and when demand concentrates, and how casual customers and subscribers ride differently. Stakeholders can use them to plan new stations and time seasonal campaigns.
